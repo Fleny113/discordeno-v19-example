@@ -1,0 +1,23 @@
+{
+  "name": "discordeno-v19-example",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "run:bot": "node --env-file .env ./dist/bot/http.js",
+    "run:gateway": "node --env-file .env ./dist/gateway/http.js",
+    "run:rest": "node --env-file .env ./dist/rest/http.js",
+    "run:shard": "node --env-file .env ./dist/gateway/shard/http.js"
+  },
+  "dependencies": {
+    "@discordeno/bot": "19.0.0-next.730ad9a",
+    "@discordeno/gateway": "19.0.0-next.730ad9a",
+    "@discordeno/rest": "19.0.0-next.730ad9a",
+    "@discordeno/types": "19.0.0-next.730ad9a",
+    "@discordeno/utils": "19.0.0-next.730ad9a",
+    "@types/node": "^20.8.2",
+    "fastify": "^4.23.2",
+    "typescript": "^5.2.2"
+  }
+}
