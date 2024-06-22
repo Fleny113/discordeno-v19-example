@@ -6,11 +6,11 @@ This is an example code that creates a basic command-based command (`test-comman
 
 You will need a bot that can use the MESSAGE_CONTENT intent.
 
-> **Important**
+> [!IMPORTANT]
 > This code is made only to be a starting point. While based on the discordeno.js.org guide for big bots it's not
 > at all supposed to be usable in any kind of production. As it does a bit of my own decisions to make the processes comunicate.
 
-> **Warning**
+> [!WARNING]
 > This code relies on node v20.6 or upper as it uses `--env-file`, it you are running a lower version then you need to use `dotenv`
 > and remove the flag from the `--env-file` flag
 
